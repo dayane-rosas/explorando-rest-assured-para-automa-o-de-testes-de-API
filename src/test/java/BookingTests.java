@@ -67,7 +67,7 @@ public class BookingTests {
     public void  getAllBookingsByUserFirstName_BookingExists_returnOk(){
                     request
                         .when()
-                            .queryParam("firstName", "Carol")
+                            .queryParam("firstName", "Dayane")
                             .get("/booking")
                         .then()
                             .assertThat()
